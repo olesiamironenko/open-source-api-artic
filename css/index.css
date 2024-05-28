@@ -1,3 +1,91 @@
-/* body {
-    background-color: blueviolet;
-} */
+body {
+    text-align: center;
+}
+
+#pageHeader {
+    font-family: cursive;
+    margin-bottom: 0;
+}
+
+#source {
+    font-size: x-large;
+    color:dimgray;
+}
+
+#source:hover,
+#source:focus {
+    color: chocolate;
+}
+
+ul {
+    max-width: 1300px;
+    margin: 1rem auto;
+    padding: 1rem;
+    column-count: 4;
+    background-color:lightgray;
+}
+
+li {
+    list-style: none; 
+    break-inside: avoid;
+    margin: 1rem;
+    border-radius: 5%;
+    background-color: white;
+}
+
+#artTitle {
+    font-weight: 800;
+    font-size: x-large;
+    padding: 5%;
+    margin: 0;
+}
+
+#artistName {
+    font-weight: 800;
+    font-size: normal;
+    padding: 1% 5%;
+    font-style: italic;
+    margin: 0;
+}
+
+img {
+    border-radius: 5%;
+    margin: 5%;
+}
+
+button {
+    width: 100px;
+    margin: 0 30% 5% 30%;
+}
+
+@media only screen and (min-width:1001px) and (max-width:1320px) {
+    
+    ul {
+        max-width: 900px;
+        column-count: 3;
+    }
+    
+    img {
+        margin: 1%;
+    }
+}
+@media only screen and (min-width:701px) and (max-width:1000px) {
+    
+    ul {
+        max-width: 600px;
+        column-count: 2;
+    }
+    img {
+        margin: 1%;
+    }
+}
+@media only screen and (max-width:700px) {
+    
+    ul {
+        max-width: 300px;
+        column-count: 1;
+    }
+    img {
+        margin: 1%;
+    }
+}

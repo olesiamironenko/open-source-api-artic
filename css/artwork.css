@@ -1,0 +1,27 @@
+h1 {
+    text-align: left;
+    margin-left: 7%;
+}
+
+main {
+    display: flex;
+    flex-direction: row;
+}
+
+#imgContainer {
+    max-width: 40vw;
+    margin-left: 5%;
+}
+
+img {
+    width: 100%;
+    padding: 1rem;
+}
+
+#textContainer {
+    max-width: 40vw;
+    min-width: 40vw;
+    margin-right: 5%;
+    margin: 1rem;
+    padding: 1rem;
+}
